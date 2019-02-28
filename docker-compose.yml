@@ -1,14 +1,15 @@
 version: '3.4'
 services:
     dappnodepackage-iexec-worker.public.dappnode.eth:
-        image: 'dappnodepackage-iexec-worker.public.dappnode.eth:0.0.1'
-        build: ./build
-        environment:
-            - IEXEC_CORE_HOST=
-            - IEXEC_CORE_PORT=
-            - IEXEC_WORKER_NAME=
-            - IEXEC_WORKER_WALLET_PATH=/encrypted-wallet.json
-            - IEXEC_WORKER_WALLET_PASSWORD=
-            - IEXEC_WALLET_JSON=
-        volumes:
-            - /var/run/docker.sock:/var/run/docker.sock 
+      image: 'dappnodepackage-iexec-worker.public.dappnode.eth:0.0.1'
+      build: ./build
+      environment:  
+          - IEXEC_CORE_HOST=api-test-kovan-pool.iex.ec
+          - IEXEC_CORE_PORT=18090
+          - IEXEC_WORKER_WALLET_PATH=/encrypted-wallet.json
+          # Modify this variables
+          - IEXEC_WORKER_NAME=your-name
+          - IEXEC_WALLET_JSON={content-of-encrypted-wallet-json}
+          - IEXEC_WORKER_WALLET_PASSWORD=ecrypted-wallet-password
+      volumes:
+          - /var/run/docker.sock:/var/run/docker.sock 
