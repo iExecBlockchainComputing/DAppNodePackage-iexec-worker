@@ -1,4 +1,4 @@
-# DAppNodePackage-polkadot-alexander
+# iexec-worker-deploy
 
 Dappnode package providing iExec Worker
 It was generated using [DAppNodeSDK](https://github.com/dappnode/DAppNodeSDK)
