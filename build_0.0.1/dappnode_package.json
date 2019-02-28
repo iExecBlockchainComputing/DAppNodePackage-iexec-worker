@@ -1,0 +1,31 @@
+{
+  "name": "dappnodepackage-iexec-worker.public.dappnode.eth",
+  "version": "0.0.1",
+  "description": "DappNode package for iExec Worker",
+  "avatar": "",
+  "type": "service",
+  "image": {
+    "path": "dappnodepackage-iexec-worker.public.dappnode.eth_0.0.1.tar.xz",
+    "hash": "/ipfs/QmZDTyaU78ZyXWyH1FA3ap1hcFXynUUiFAu2FCyG6pBghB",
+    "size": 97858320,
+    "restart": "always",
+    "volumes": [
+      "/var/run/docker.sock:/var/run/docker.sock"
+    ],
+    "environment": [
+      "IEXEC_CORE_HOST",
+      "IEXEC_CORE_PORT",
+      "IEXEC_WORKER_NAME",
+      "IEXEC_WORKER_WALLET_PATH",
+      "IEXEC_WORKER_WALLET_PASSWORD",
+      "IEXEC_WALLET_JSON"
+    ],
+    "keywords": [
+      "IEXEC",
+      "WORKER"
+    ]
+  },
+  "author": "Francois Branciard",
+  "license": "GPL-3.0",
+  "dependencies": {}
+}

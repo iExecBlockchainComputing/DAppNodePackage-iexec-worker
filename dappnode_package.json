@@ -5,9 +5,9 @@
   "avatar": "",
   "type": "service",
   "image": {
-    "path": "",
-    "hash": "",
-    "size": "",
+    "path": "dappnodepackage-iexec-worker.public.dappnode.eth_0.0.1.tar.xz",
+    "hash": "/ipfs/QmZDTyaU78ZyXWyH1FA3ap1hcFXynUUiFAu2FCyG6pBghB",
+    "size": 97858320,
     "restart": "always",
     "volumes": [
       "/var/run/docker.sock:/var/run/docker.sock"
