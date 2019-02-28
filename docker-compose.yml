@@ -4,10 +4,10 @@ services:
         image: 'dappnodepackage-iexec-worker.public.dappnode.eth:0.0.1'
         build: ./build
         environment:
-            - IEXEC_CORE_HOST
+            - IEXEC_CORE_HOST=
             - IEXEC_CORE_PORT=
             - IEXEC_WORKER_NAME=
-            - IEXEC_WORKER_WALLET_PATH=/iexec-wallet/encrypted-wallet.json
+            - IEXEC_WORKER_WALLET_PATH=/encrypted-wallet.json
             - IEXEC_WORKER_WALLET_PASSWORD=
             - IEXEC_WALLET_JSON=
         volumes:
