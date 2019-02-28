@@ -1,4 +1,4 @@
-FROM iexechub/iexec-worker:3.0.0-SNAPSHOT-6f6eca5
+FROM iexechub/iexec-worker:31dc033
 
 COPY ./entrypoint.sh /
 
