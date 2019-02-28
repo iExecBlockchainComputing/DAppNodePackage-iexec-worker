@@ -4,6 +4,11 @@ services:
         image: 'dappnodepackage-iexec-worker.public.dappnode.eth:0.0.1'
         build: ./build
         environment:
-             - EXTRA_OPTS=
+            - IEXEC_CORE_HOST
+            - IEXEC_CORE_PORT=
+            - IEXEC_WORKER_NAME=
+            - IEXEC_WORKER_WALLET_PATH=/iexec-wallet/encrypted-wallet.json
+            - IEXEC_WORKER_WALLET_PASSWORD=
+            - IEXEC_WALLET_JSON=
         volumes:
             - /var/run/docker.sock:/var/run/docker.sock 

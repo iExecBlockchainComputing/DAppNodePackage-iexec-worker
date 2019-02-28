@@ -9,12 +9,23 @@
     "hash": "",
     "size": "",
     "restart": "always",
+    "volumes": [
+      "/var/run/docker.sock:/var/run/docker.sock"
+    ],
+    "environment": [
+      "IEXEC_CORE_HOST",
+      "IEXEC_CORE_PORT",
+      "IEXEC_WORKER_NAME",
+      "IEXEC_WORKER_WALLET_PATH",
+      "IEXEC_WORKER_WALLET_PASSWORD",
+      "IEXEC_WALLET_JSON"
+    ],
     "keywords": [
       "IEXEC",
       "WORKER"
     ]
   },
   "author": "Francois Branciard",
-  "license": "",
+  "license": "GPL-3.0",
   "dependencies": {}
 }
