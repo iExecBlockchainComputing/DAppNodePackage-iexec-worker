@@ -1,0 +1,9 @@
+version: '3.4'
+services:
+    dappnodepackage-iexec-worker.public.dappnode.eth:
+        image: 'dappnodepackage-iexec-worker.public.dappnode.eth:0.0.1'
+        build: ./build
+        environment:
+             - EXTRA_OPTS=
+        volumes:
+            - /var/run/docker.sock:/var/run/docker.sock 

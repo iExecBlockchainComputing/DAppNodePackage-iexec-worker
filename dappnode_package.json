@@ -1,0 +1,20 @@
+{
+  "name": "dappnodepackage-iexec-worker.public.dappnode.eth",
+  "version": "0.0.1",
+  "description": "DappNode package for iExec Worker",
+  "avatar": "",
+  "type": "service",
+  "image": {
+    "path": "",
+    "hash": "",
+    "size": "",
+    "restart": "always",
+    "keywords": [
+      "IEXEC",
+      "WORKER"
+    ]
+  },
+  "author": "Francois Branciard",
+  "license": "",
+  "dependencies": {}
+}
