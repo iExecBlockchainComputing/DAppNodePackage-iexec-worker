@@ -12,4 +12,5 @@ services:
           - IEXEC_WALLET_JSON={content-of-encrypted-wallet-json}
           - IEXEC_WORKER_WALLET_PASSWORD=ecrypted-wallet-password
       volumes:
-          - /var/run/docker.sock:/var/run/docker.sock 
+          - /var/run/docker.sock:/var/run/docker.sock
+          - /tmp/iexec-worker:/tmp/iexec-worker 
