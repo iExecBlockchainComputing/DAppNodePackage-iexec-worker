@@ -10,7 +10,8 @@
     "size": 97858320,
     "restart": "always",
     "volumes": [
-      "/var/run/docker.sock:/var/run/docker.sock"
+      "/var/run/docker.sock:/var/run/docker.sock",
+      "/tmp/iexec-worker:/tmp/iexec-worker"
     ],
     "environment": [
       "IEXEC_CORE_HOST",
