@@ -6,8 +6,8 @@
   "type": "service",
   "image": {
     "path": "dappnodepackage-iexec-worker.public.dappnode.eth_0.0.1.tar.xz",
-    "hash": "/ipfs/QmZDTyaU78ZyXWyH1FA3ap1hcFXynUUiFAu2FCyG6pBghB",
-    "size": 97858320,
+    "hash": "/ipfs/QmQGckBv742tkH5Em7VxrUKbbvenAto7KEj95TrGKYCGQs",
+    "size": 97089722,
     "restart": "always",
     "volumes": [
       "/var/run/docker.sock:/var/run/docker.sock",
@@ -19,7 +19,8 @@
       "IEXEC_WORKER_NAME",
       "IEXEC_WORKER_WALLET_PATH",
       "IEXEC_WORKER_WALLET_PASSWORD",
-      "IEXEC_WALLET_JSON"
+      "IEXEC_WALLET_JSON",
+      "IEXEC_WORKER_OVERRIDE_BLOCKCHAIN_NODE_ADDRESS"
     ],
     "keywords": [
       "IEXEC",

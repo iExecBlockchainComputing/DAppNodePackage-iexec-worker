@@ -1,4 +1,4 @@
-FROM iexechub/iexec-worker:31dc033
+FROM iexechub/iexec-worker:3.0.0-SNAPSHOT-732dce7-divine-json
 
 COPY ./entrypoint.sh /
 

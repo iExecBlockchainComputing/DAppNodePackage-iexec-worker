@@ -7,6 +7,7 @@ services:
           - IEXEC_CORE_HOST=api-test-kovan-pool.iex.ec
           - IEXEC_CORE_PORT=18090
           - IEXEC_WORKER_WALLET_PATH=/encrypted-wallet.json
+          - IEXEC_WORKER_OVERRIDE_BLOCKCHAIN_NODE_ADDRESS=
           # Modify this variables
           - IEXEC_WORKER_NAME=your-name
           - IEXEC_WALLET_JSON={content-of-encrypted-wallet-json}
