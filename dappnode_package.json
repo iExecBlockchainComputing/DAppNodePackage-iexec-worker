@@ -1,13 +1,13 @@
 {
   "name": "dappnodepackage-iexec-worker.public.dappnode.eth",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "DappNode package for iExec Worker",
   "avatar": "",
   "type": "service",
   "image": {
-    "path": "dappnodepackage-iexec-worker.public.dappnode.eth_0.0.1.tar.xz",
-    "hash": "/ipfs/QmQGckBv742tkH5Em7VxrUKbbvenAto7KEj95TrGKYCGQs",
-    "size": 97089722,
+    "path": "dappnodepackage-iexec-worker.public.dappnode.eth_0.0.2.tar.xz",
+    "hash": "/ipfs/QmUegKN9a1YSzwhJysWgGFt8mQESs9Us8BACr6E71WtJEY",
+    "size": 96571314,
     "restart": "always",
     "volumes": [
       "/var/run/docker.sock:/var/run/docker.sock",
