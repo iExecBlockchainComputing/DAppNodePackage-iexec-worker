@@ -8,7 +8,6 @@ No Aragon Package Manager Repo yet.
 IPFS link for 0.1.0 version: /ipfs/QmRQPn835KF22ohm37Rqry1tzNQuVvzYdaKCwMHeXZPyix
 
 
-
 Or can use this package without installing it in your DAppNode following these instructions:
 
 ## Prerequisites
@@ -54,6 +53,16 @@ You can write extra options on the adminui or edit the `docker-compose.yml` and 
 ```
  - EXTRA_OPTS=
 ```
+
+# After install
+
+![config](./worker-dappnode.png)
+
+Modify "IEXEC_WORKER_WALLET_PASSWORD" with your wallet password.
+Modify "IEXEC_WALLET_JSON" with your minified iexec wallet file. (you can do it with `jq -c . < wallet.json`)
+Change your worker name.
+
+And click on "Update environment variables" to start worker on public-pool!
 
 ## License
 
