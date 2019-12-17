@@ -11,6 +11,8 @@ IPFS link:
 
 Or can use this package without installing it in your DAppNode following these instructions:
 
+If IPFS is slow, add me as peer by clicking this link: http://my.dappnode/#/system/add-ipfs-peer/%2Fdns4%2F8c5b410aee162caa.dyndns.dappnode.io%2Ftcp%2F4001%2Fipfs%2FQmZuqWvtuXf1cjFYrQXGHJ8XdMBtwrEUnWmK2XbAcHwPSG
+
 ## Prerequisites
 
 - git
