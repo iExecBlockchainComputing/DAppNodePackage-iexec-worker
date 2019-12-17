@@ -1,4 +1,4 @@
-FROM iexechub/iexec-worker:3.2.0
+FROM iexechub/iexec-worker:4.0.0
 
 COPY ./entrypoint.sh /
 

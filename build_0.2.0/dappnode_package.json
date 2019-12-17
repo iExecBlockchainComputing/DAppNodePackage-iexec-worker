@@ -1,0 +1,48 @@
+{
+  "name": "dappnodepackage-iexec-worker.public.dappnode.eth",
+  "version": "0.2.0",
+  "upstreamVersion": "4.0.0",
+  "shortDescription": "Start an iExec worker and earn RLC!",
+  "description": "iExec team is creating a decentralized cloud computing market place. Be a part of the adventure by starting a worker! More informations and tutorials on: https://docs.iex.ec/",
+  "avatar": "/ipfs/QmVBxXXByUeXprDHCzybsBK9KGFqmY7h8SRozCuzDBFC5s",
+  "type": "service",
+  "image": {
+    "path": "dappnodepackage-iexec-worker.public.dappnode.eth_0.2.0.tar.xz",
+    "hash": "/ipfs/QmQdizEwdbfvvhxWJRdSWJTsCQWt1toBXTcbkK7Jd81WCU",
+    "size": 70435072,
+    "restart": "always",
+    "volumes": [
+      "/var/run/docker.sock:/var/run/docker.sock",
+      "/tmp/iexec-worker:/tmp/iexec-worker"
+    ],
+    "environment": [
+      "IEXEC_CORE_PORT=18443",
+      "IEXEC_CORE_PROTOCOL=https",
+      "IEXEC_SCONE_LAS_PORT=18766",
+      "IEXEC_WORKER_NAME=worker-name",
+      "IEXEC_WALLET_JSON",
+      "IEXEC_WORKER_WALLET_PASSWORD=encrypted-wallet-password",
+      "IEXEC_CORE_HOST=public-pool.iex.ec",
+      "IEXEC_WORKER_OVERRIDE_BLOCKCHAIN_NODE_ADDRESS=http://my.ethchain.dnp.dappnode.eth:8545"
+    ],
+    "keywords": [
+      "IEXEC",
+      "WORKER"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iExecBlockchainComputing/DAppNodePackage-iexec-worker.git"
+  },
+  "links": {
+    "iexecProject": "https://github.com/iExecBlockchainComputing",
+    "website": "https://iex.ec/",
+    "doc": "https://docs.iex.ec/"
+  },
+  "bugs": {
+    "url": "https://github.com/iExecBlockchainComputing/DAppNodePackage-iexec-worker/issues"
+  },
+  "author": "Nathan Payre (https://github.com/nathPay)",
+  "license": "GPL-3.0",
+  "dependencies": {}
+}

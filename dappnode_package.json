@@ -1,15 +1,15 @@
 {
   "name": "dappnodepackage-iexec-worker.public.dappnode.eth",
-  "version": "0.1.0",
-  "upstreamVersion": "3.2.0",
+  "version": "0.2.0",
+  "upstreamVersion": "4.0.0",
   "shortDescription": "Start an iExec worker and earn RLC!",
   "description": "iExec team is creating a decentralized cloud computing market place. Be a part of the adventure by starting a worker! More informations and tutorials on: https://docs.iex.ec/",
-  "avatar": "/ipfs/QmcZgRMJQoopfXZVK76UERzfeaeiN4avbfqZiddS95WhJX",
+  "avatar": "/ipfs/QmVBxXXByUeXprDHCzybsBK9KGFqmY7h8SRozCuzDBFC5s",
   "type": "service",
   "image": {
-    "path": "dappnodepackage-iexec-worker.public.dappnode.eth_0.1.0.tar.xz",
-    "hash": "/ipfs/QmchqvWxpHpepvFEBZQeLVCbz4xWMTsRZSKfG8WNH31yAK",
-    "size": 69097977,
+    "path": "dappnodepackage-iexec-worker.public.dappnode.eth_0.2.0.tar.xz",
+    "hash": "/ipfs/QmQdizEwdbfvvhxWJRdSWJTsCQWt1toBXTcbkK7Jd81WCU",
+    "size": 70435072,
     "restart": "always",
     "volumes": [
       "/var/run/docker.sock:/var/run/docker.sock",

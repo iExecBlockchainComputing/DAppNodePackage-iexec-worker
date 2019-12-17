@@ -5,8 +5,9 @@ It was generated using [DAppNodeSDK](https://github.com/dappnode/DAppNodeSDK)
 
 No Aragon Package Manager Repo yet.
 
-IPFS link for 0.1.0 version: /ipfs/QmRQPn835KF22ohm37Rqry1tzNQuVvzYdaKCwMHeXZPyix
-
+IPFS link:
+- version 0.1.0 (worker 3.2.0): /ipfs/QmYp7tPSbPSUwSkqrAc2S4DdAQaypKBdNkhS3qLVHtuukQ
+- version 0.2.0 (worker 4.0.0): /ipfs/QmRLnXygzuKhQMK28b8TDFtefLgFP1E361yDygvY7dDfLp
 
 Or can use this package without installing it in your DAppNode following these instructions:
 
