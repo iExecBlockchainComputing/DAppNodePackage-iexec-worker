@@ -3,6 +3,8 @@
 Dappnode package providing iExec Worker
 It was generated using [DAppNodeSDK](https://github.com/dappnode/DAppNodeSDK)
 
+It is possible to connect the worker to a light node.
+
 No Aragon Package Manager Repo yet.
 
 IPFS link:
